@@ -29,8 +29,9 @@ public class javaVariables{
         // int=4byte[-2billion,2bil] w/o decimal
         // long =8byte
         // float =4
-
         // double=8
+        // primitive=>already designed like byte short char boolean int long float double
+        // non-primitive=> we make strings,array,class,object
         
     }
 
