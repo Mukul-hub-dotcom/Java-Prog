@@ -17,5 +17,11 @@ public class operator {
         System.out.println((b>10)||(c>10));
         boolean d=true;
         System.out.println(!d);
+
+        // ternary operator
+        // variable=condition?statement1:satement2;
+
+        String h=(15%2==0)?"even":"odd";
+        System.out.println(h);
     }
 }

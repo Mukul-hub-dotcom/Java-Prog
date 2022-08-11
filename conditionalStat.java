@@ -14,5 +14,23 @@ public class conditionalStat {
                 System.out.println("minor");
             
         }
+
+
+        int a=25;
+        int b=13;
+        if(a>b){
+            System.out.println("A is largest of two");
+        }
+        else{
+            System.out.println("B is largest of two");
+        }
+
+        int d=sc.nextInt();
+        if(d%2==0){
+            System.out.println("Even");
+        }
+        else{
+            System.out.println("Odd");
+        }
     }
 }
