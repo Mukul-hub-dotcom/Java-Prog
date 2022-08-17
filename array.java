@@ -6,17 +6,7 @@ public class array {
         for(int i=0;i<marks.length;i++){
             marks[i]+=1;
         }
-    }
-
-    public static int linearSearch(int marks[],int key){
-        for(int i=0;i<marks.length;i++){
-            if(marks[i]==key){
-                return(i);
-            }
-            
-        }return -1;
-
-    }
+    }   
     public static void main(String[] args) {
         // int marks[]=new int[50];
         
@@ -28,10 +18,7 @@ public class array {
         // System.out.print("Physics Rank = "+numbers[0]);
 
         int marks[]={91,79,98,99,100};
-        int key=79;
-
-        System.out.println(linearSearch(marks,key));
-
+        
         int notChange=78;
         update(marks,notChange);
         // here we'll observe arr getting changed but int alone not updated as arr is call by reference and int notchange was call by value
