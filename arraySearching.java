@@ -1,4 +1,4 @@
-public class array2 {
+public class arraySearching {
     // Linear Search
     public static int linearSearch(int marks[],int key){
         for(int i=0;i<marks.length;i++){
