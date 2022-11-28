@@ -22,6 +22,11 @@ public class func {
         a=15;
         return a;
     }
+    public static void prime(int a){
+        for(int i=1;i<=a;i++){
+            System.out.println("MUKUL");
+        }
+    }
     public static void main(String[] args) {
         printHelloWorld();
         Scanner sc=new Scanner(System.in);
@@ -29,10 +34,11 @@ public class func {
         int b=sc.nextInt();
         int sum=calcSum(a,b);        
         // args while calling
-        System.out.println(sum);
-        swap(a,b);
-        // System.out.println(swap(a,b));
-        System.out.println(change(a));
+        // System.out.println(sum);
+        // swap(a,b);
+        // // System.out.println(swap(a,b));
+        // System.out.println(change(a));
+        prime(a);
         
     }
 }
