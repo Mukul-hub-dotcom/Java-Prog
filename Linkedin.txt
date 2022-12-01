@@ -1,4 +1,9 @@
 Started with react 
 learn various hook like useState, useEffect, useRef
 create a custom hook
-and continuing
+started with redux
+created reducers(initializing and change of state)
+actions bring changes to users(has type and payload)
+used root reducer(combine reducer)
+started revising backend
+used NodeJs for creating server(create Server used and error page is specified in switvh case)
