@@ -16,7 +16,7 @@ public class array2d {
         for (int i=0;i<n;i++){
             for(int j=0;j<m;j++){
               System.out.print( matrix[i][j]+" ");
-            System.out.println("");
+            
             }System.out.println();
         }
     }
