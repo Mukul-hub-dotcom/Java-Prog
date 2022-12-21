@@ -39,12 +39,23 @@ public class arrayQ {
         }
 return maxProfit;
     }
-    public static void main(String[] args) {
-        int height[]={4,2,0,6,3,2,5};
-        System.out.println(trappedRainWater(height));
 
-        int price[]={7,1,5,3,6,4};
-        System.out.println(stocks(price));
+
+// max sum subarr
+public static void subarr(int[] jamu){
+    System.out.println(jamu);
+}
+
+    public static void main(String[] args) {
+        // int height[]={4,2,0,6,3,2,5};
+        // System.out.println(trappedRainWater(height));
+
+
+        // int price[]={7,1,5,3,6,4};
+        // System.out.println(stocks(price));
+
+        int jamu[]={1,2,3,4,4,6};
+        subarr(jamu);
 
     }
 
